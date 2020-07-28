@@ -3,17 +3,7 @@ import React, { createContext, useReducer } from "react";
 export const Store = createContext();
 
 const InitialState = {
-  items: [
-    {
-      id: "123",
-      title:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid",
-      img:
-        "https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg",
-      price: "200",
-      rating: "5",
-    },
-  ],
+  items: [],
   totalqty: 0,
   totalPrice: 0,
 };
