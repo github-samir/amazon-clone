@@ -37,7 +37,7 @@ nav {
 .header-option {
   color: #fff;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
 .option {
@@ -62,6 +62,7 @@ nav {
 
 .item-count {
   margin: 0 10px 0 2px;
+  width: 20px;
 }
 
 .link {

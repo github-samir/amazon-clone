@@ -1,0 +1,19 @@
+.checkout-product {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 10px;
+  max-width: 780px;
+  background-color: white;
+}
+
+.checkout-product-image {
+  height: 8opx;
+  width: 200px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.checkout-product-info {
+  padding: 10px 8px 0 0;
+}

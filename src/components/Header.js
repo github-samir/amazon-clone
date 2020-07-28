@@ -6,7 +6,8 @@ import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 import { Store } from "../Provider";
 
 const Header = () => {
-  const [state, dispatch] = useContext(Store);
+  const [state] = useContext(Store);
+
   return (
     <div className="header">
       <Link to="/" className="link">

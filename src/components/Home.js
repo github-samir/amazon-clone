@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Home.css";
 import Product from "./Product";
 
@@ -15,14 +15,16 @@ function Home() {
       <div className="home-row">
         <Product
           id="123"
-          title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
+          title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquidLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="200"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
         <Product
           id="55"
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="100"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
       </div>
@@ -31,18 +33,21 @@ function Home() {
           id="45"
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="350"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
         <Product
           id="97"
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="1200"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
         <Product
           id="23"
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="499"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
       </div>
@@ -51,6 +56,7 @@ function Home() {
           id="123"
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus aliquam aliquid"
           rating="5"
+          price="12000"
           img="https://ashmagautam.files.wordpress.com/2013/11/mcj038257400001.jpg"
         />
       </div>

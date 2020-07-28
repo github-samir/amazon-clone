@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
-import { StoreProvider } from "./Provider";
+import StoreProvider from "./Provider";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
-    <Router>
-      <StoreProvider>
+    <StoreProvider>
+      <Router>
         <div className="App">
           <Switch>
             <Route exact path="/">
@@ -17,15 +18,15 @@ function App() {
             </Route>
             <Route path="/checkout">
               <Header />
-              <h1>Checkout</h1>
+              <Checkout />
             </Route>
             <Route path="/login">
               <h1>Login page</h1>
             </Route>
           </Switch>
         </div>
-      </StoreProvider>
-    </Router>
+      </Router>
+    </StoreProvider>
   );
 }
 

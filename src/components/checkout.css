@@ -1,0 +1,32 @@
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.left-empty {
+  width: 780px;
+  margin-left: 150px;
+  background-color: white;
+  padding: 0 0 3px 10px;
+}
+
+.right {
+  border: 1px solid black;
+  position: sticky;
+  top: 65px;
+  margin-right: 10px;
+  height: 100px;
+  min-width: 250px;
+  padding: 10px 5px 0 10px;
+}
+
+.currency {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.right button {
+  position: absolute;
+  bottom: 0;
+}
